@@ -1,0 +1,40 @@
+{
+  "name": "mern_shopping_list",
+  "version": "1.0.0",
+  "description": "Basic MERN Shopping List Items",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "client": "cd ../client && npm start",
+    "dev": "concurrently \" npm run start \" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/secmohammed/basic-mern-shopping-list.git"
+  },
+  "keywords": [
+    "Mongoose",
+    "Express",
+    "React",
+    "Nodejs"
+  ],
+  "author": "Mohammed Osama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/secmohammed/basic-mern-shopping-list/issues"
+  },
+  "homepage": "https://github.com/secmohammed/basic-mern-shopping-list#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "config": "^3.0.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
